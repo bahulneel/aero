@@ -215,7 +215,7 @@ If you are using Stuart Sierra's
     (when-let [server (:server component)] (stop-server server))))
 
 (defn new-server [config]
-  (->MyServer))
+  (->MyServer config))
 ```
 
 ```clojure
